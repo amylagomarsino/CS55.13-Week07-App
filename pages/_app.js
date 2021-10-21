@@ -8,9 +8,9 @@ initAuth()
 function MyApp({ Component, pageProps }) {
   // eslint-disable-next-line react/jsx-props-no-spreading
   return (
-    <ChakraProvider> // <- add this
+    <ChakraProvider> 
       <Component {...pageProps} />
-    </ChakraProvider> // <- add this
+    </ChakraProvider> 
   )
 }
 
