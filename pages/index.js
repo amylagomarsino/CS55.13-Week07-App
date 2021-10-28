@@ -33,6 +33,10 @@ const Demo = () => {
             and load the authed user only on the client side.
           </p>
           <a href="/todo" style={{ fontSize: "40px", textDecoration: 'underline' }}>Add a todo!</a>
+          <br></br>
+          <a href="/event" style={{ fontSize: "40px", textDecoration: 'underline' }}>Add an event!</a>
+          <br></br>
+          <a href="/contacts" style={{ fontSize: "40px", textDecoration: 'underline' }}>Add a contact!</a>
         </div>
         <DemoPageLinks />
       </div>
